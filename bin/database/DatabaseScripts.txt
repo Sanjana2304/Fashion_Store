@@ -1,0 +1,24 @@
+mysql>create database fashion;
+
+mysql>create table fashion1(FirstName varchar(20),LastName varchar(20),Username varchar(20),Email varchar(100),Mobile int,Address varchar(30));
+
+mysql>create table fashion1(FirstName varchar(20),LastName varchar(20),Username varchar(20),Email varchar(100),Mobile int,Address varchar(30),Amount int);
+
+mysql>create table fashion2(Username varchar(20),Password varchar(20));
+
+mysql>create table fashion3(Username varchar(20),amt int);
+
+CREATE TABLE IF NOT EXISTS boys (
+    `Product_Id` VARCHAR(2) CHARACTER SET utf8,
+    `Name` VARCHAR(5) CHARACTER SET utf8,
+    `Price` INT
+);
+INSERT INTO boys VALUES
+    ('b1','boys1',615),
+    ('b2','boys2',499),
+    ('b3','boys3',799),
+    ('b4','boys4',700),
+    ('b5','boys5',600),
+    ('b6','boys6',400),
+    ('b7','boys7',700),
+    ('b8','boys8',850);
